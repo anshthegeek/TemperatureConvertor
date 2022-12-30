@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  
+ <style>
+
+
+body{
+
+  background-color: rgb(48, 57, 46);
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Flearn.zoner.com%2Famazing-sky-photos-in-three-short-steps%2F&psig=AOvVaw2cW4ce3t4cUVpKilGEROKn&ust=1672476604914000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMjx-__6oPwCFQAAAAAdAAAAABAR');
+  
+}
+
+
+#box1{
+        border-radius: 17px;
+        height: 360px;
+        width: 411px;
+        position: relative;
+        right: -503px;
+        bottom: -92px;
+        background-color:#003333;
+        box-shadow:0px 0px 15px 3px rgba(0,0,0,0.4);
+
+}
+#box1 h1{
+    position:relative;
+    right: -21px;
+    margin: auto;
+    padding-top: 9px;
+    color: #fff;
+ 
+}
+  
+     #cel,#Feh,#kelv{
+        
+         
+         position:relative;
+         right: -21px;
+         bottom: -5px;
+         
+     }
+
+
+     #cel .icon{
+
+       font-size: 46.5px;   
+       position: relative;  
+       right:-295px;
+       bottom:59px;
+       border-radius:5px;
+       
+          
+        
+        }
+     
+          
+         .icon1{ border: 2px solid #4d5964;
+            width:55px;
+            height: 53px;
+            background-color: #4d5964;
+            color: #fff;
+        border-radius:5px;
+        text-align: center;
+        font-size: 47px;
+        position: relative;  
+       right:-299px;
+       bottom:57px;
+
+         }
+  
+  
+        
+
+        .icon2{
+            border: 2px solid #4d5964;
+            width:55px;
+            height: 53px;
+            background-color: #4d5964;
+            color: #fff;
+        border-radius:5px;
+        text-align: center;
+        font-size: 47px;
+        position: relative;  
+       right:-298px;
+       bottom:109px;
+         }
+
+     /* #Feh .icon{
+
+       font-size: 46.5px;   
+       position: relative;  
+       right:-300px;
+       bottom:110px;
+       border-radius:5px;
+       
+       
+     
+        
+         
+
+     } */
+     
+      #kelv input{
+        position: relative;
+        bottom: 103px;
+      }
+
+     /* #kelv .icon{
+
+       font-size: 46.5px;   
+       position: relative;  
+       right:52px;
+       width: 21px;
+       bottom:92px;
+       border-radius:5px;
+      line-height: 45px;
+       
+       
+       } */
+
+         .keli{
+            border: 2px solid #4d5964;
+            width:55px;
+            height: 53px;
+            background-color: #4d5964;
+            color: #fff;
+        border-radius:5px;
+        text-align: center;
+        font-size: 47px;
+        position: relative;  
+       right:-319px;
+       bottom:155px;
+         }
+       
+      #Feh input{
+        position: relative;
+        bottom: 51px;
+        
+      }
+       input{
+        width: 350px;
+        border: 2px solid #4d5964; 
+        border-radius: 12px;
+        height: 52px;
+        text-align: center;
+         margin-top:15px;
+         flex: 5;
+         font-size: 17px;
+         font-weight: bold;
+
+         
+     }
+
+
+
+
+
+
+      
+       .icon{
+
+        flex: 1;
+        height: 60px;
+        line-height: 60px;
+        padding: 0 5px;
+        text-align: center;
+        font-size: 34px;
+        background-color: #4d5964;
+        color: #fff;
+        border-radius: 0 8px 8px 0;
+        position: relative;
+        right: 51px;
+        width: 12px;
+        border: 2px solid #4d5964;
+
+    
+    }
+ 
+       
+  
+       i{
+        font-size: 34px;
+        color: #fff;
+       }
+  
+
+
+           @media(max-width:850px) and (min-width:200px) {
+                #box1{
+                  position: relative;
+                  right: -213px;
+                }
+                .icon1{
+                       position: relative;
+                      bottom:58px;
+ 
+                }
+                .icon2{
+                       position: relative;
+                      bottom:108px;
+ 
+                }
+                
+           }
+            
+             
+            
+
+
+           .button{
+            width:157px;
+            position: relative;
+            right: 203px;
+            margin-top:9px;
+            
+
+           }
+
+           .button button{
+            border: none;
+            outline: none;
+            padding: 10px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius:3px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+           }
+
+
+      .button :hover{
+          
+           background-color: #000;
+           color: #fff ;
+       
+      }
+          
+        
+      
+     
+   
+       
+     
+       
+       
+     
+ </style>
+
+
+<div class="head">
+  
+  
+      <div id="box1">
+
+          <h1>Temperature Converter</h1>
+          <div id="i1">
+            <i class="fa-solid fa-temperature-list"></i>
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+        </div>
+
+        <div id="cel">
+            <input type="number" name="" placeholder="Celcius">
+            <div class="icon1">&#8451</div>
+        </div>
+        <div id="Feh">
+            <input type="number" name="" placeholder="Fahrenheit">
+            <div class="icon2">&#8457</div>
+        </div>
+
+        <div id="kelv">
+            <input type="number" name="" placeholder="Kelvin">
+        </div>
+        <div class="keli">
+        &#8490
+
+        <div class="button">
+          <button>All clear</button>
+        </div>
+
+      
+    
+ </div>
+
+
+
+
+      </div>
+
+
+</div>
+
+
+<script>
+
+     let celciusInput= document.querySelector('#cel > input')
+     let fahrenheitInput= document.querySelector('#Feh > input')
+     let kelvinInput= document.querySelector('#kelv > input')
+
+     let btn=document.querySelector('.button button')
+
+     function roundNumber(number){
+      return Math.round(number*100)/100
+     }
+ 
+       //Celcius to Fahrenheit and Kelvin
+
+        celciusInput.addEventListener('input',function(){
+          let cTemp=parseFloat(celciusInput.value)
+          let fTemp=(cTemp*(9/5)) + 32
+          let kTemp=cTemp+273.15
+
+          fahrenheitInput.value=roundNumber(fTemp)
+          kelvinInput.value=roundNumber(kTemp)
+        })
+
+         
+          //Fahrenheit to Celccius and Kelvin
+
+          fahrenheitInput.addEventListener('input',function(){
+          let fTemp=parseFloat(fahrenheitInput.value)
+          let cTemp=(fTemp-32)*(5/9)
+          let kTemp=(fTemp-32)*(5/9)+273.15
+
+          celciusInput.value=roundNumber(cTemp)
+          kelvinInput.value=roundNumber(kTemp)
+        })
+         
+         //Kelvin to Celcius and Fahrenheit
+
+        kelvinInput.addEventListener('input',function(){
+           let kTemp=parseFloat(kelvinInput.value)
+           let cTemp=kTemp-273.15
+           let fTemp=(kTemp-273.15)*(9/5)+32
+
+           celciusInput.value=roundNumber(cTemp)
+          fahrenheitInput.value=roundNumber(fTemp)
+        })
+         
+
+          btn.addEventListener('click',()=>{
+            
+               celciusInput.value=""
+               fahrenheitInput.value=""
+               kelvinInput.value=""
+
+             
+
+          })
+
+
+
+</script>
+
+<body>
+    
+</body>
+</html>
